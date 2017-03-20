@@ -1,5 +1,5 @@
 package instrumentation
 
 type Segment interface {
-	End()
+	End() error
 }
