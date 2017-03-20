@@ -1,7 +1,7 @@
 package instrumentation
 
 import (
-	porthos "github.com/porthos-rpc/porthos-go/server"
+	"github.com/porthos-rpc/porthos-go"
 )
 
 type TxRequest struct {
