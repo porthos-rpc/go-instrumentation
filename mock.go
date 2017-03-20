@@ -40,8 +40,9 @@ func (m *mockTransaction) AddAttribute(key string, value interface{}) error {
 	return nil
 }
 
-
 type mockSegment struct {
 }
 
-func (m *mockSegment) End() {}
+func (m *mockSegment) End() error {
+	return nil
+}
