@@ -1,10 +1,11 @@
 package instrumentation
 
 import (
+	"github.com/newrelic/go-agent"
 	"github.com/porthos-rpc/porthos-go"
 )
 
 type TxRequest struct {
-	Transaction
+	newrelic.Transaction
 	porthos.Request
 }
